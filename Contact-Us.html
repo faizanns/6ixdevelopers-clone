@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    
+        <title>About Us | 6ix Developers | Toronto Digital Marketing Agency</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <meta name="description" content="6ix Developers is a digital marketing agency in Toronto, ON and specializes in PPC Management, SEO and Website Design.">
+        <meta name="keywords" content="Toronto Digital Marketing Agency, Toronto Website Design Agency, Toronto Website Design Packages, Google Adwords Management Agency Toronto, Google PPC Management Agency Toronto, Keywords Research, Social Media Marketing Agency Toronto, Social Media Paid Advertising, Toronto SEO Agency, Increase Organic Ranking, On-Page SEO, Off-Page SEO">
+        <meta name="author" content="6ix Developers">
+        <link rel="shortcut icon" href="Images/home-images/favicon.png">
+        <link rel="stylesheet" href="Contact-Us.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Muli:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/azb4dqu.css">
+        <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    
+    </head>
+    
+    <body>
+    
+        <script type="text/javascript">
+            
+            $(document).ready(function(){
+                $(window).on("scroll",function(){
+                    if($(window).scrollTop()>50) { $("#navbar").addClass("fixed-main-header");
+                    $("#logo").attr("src","Images/home-images/new-logo-white.png") 
+                } else{
+                        $("#navbar").removeClass("fixed-main-header");
+                $("#logo").attr("src","Images/home-images/new-logo.png")}
+                              });
+            });
+            
+        </script>
+        
+            <nav id="navbar">
+                
+                    <ul class="outer-list">
+                        <li><a class="logo" href="index.html"><img id="logo" src="Images/home-images/new-logo.png" alt="6ix Developers Logo"></a></li>
+                        <li>
+                            <ul class="inner-list">
+                                <li><a href="index.html">Home</a></li>
+                                <li>
+                                    <a class="dropdown-btn" >Services <i class="fas fa-caret-down"></i></a>
+                                    <ul class="dropdown-content">
+                                            <li><a href="website-design">Website Design</a></li>
+                                            <li><a href="google-adwords/ppc">Google Adwords/PPC</a></li>
+                                            <li><a href="social-media">Social Media</a></li>
+                                            <li><a href="seo-services">SEO Services</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="index.html">About Us</a></li>
+                                <li><a href="blog">Blog</a></li>
+                                <li><a href="contact-us">Contact Us</a></li>
+                                <li><a href="tel: 123456789"><i class="fas fa-phone-alt"></i> 647-616-2016</a></li>
+                            </ul>
+                            <ul class="hidden-navbar">
+                                <li><a href="tel: 123456789"><i class="fas fa-phone-alt"></i></a></li>
+                                <li>
+                                    <input type="checkbox" id="btn-onclick-enter"/>
+                                    <label for="btn-onclick-enter"><i class="fas fa-bars"><div class="over-bars"></div></i>
+                                    <div class="navbar-container">
+                                    <ul class="inner-list-2">
+                                        <li><img src="Images/home-images/cancel.png" class="cancel-img"></li>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li>
+                                            <a href="index.html">Services <i class="fas fa-caret-down"></i></a>
+                                            <ul class="dropdown-content-2">
+                                                    <li><a href="website-design">Website Design</a></li>
+                                                    <li><a href="google-adwords/ppc">Google Adwords/PPC</a></li>
+                                                    <li><a href="social-media">Social Media</a></li>
+                                                    <li><a href="seo-services">SEO Services</a></li>
+                                                </ul>
+                                        </li>
+                                        <li><a href="index.html">About Us</a></li>
+                                        <li><a href="blog">Blog</a></li>
+                                        <li><a href="contact-us">Contact Us</a></li>
+                                        <li><a href="tel: 123456789"><i class="fas fa-phone-alt"></i> 647-616-2016</a></li>
+                                    </ul>
+                                    </div>
+                                    </label>
+                                    
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        
+                    </ul>
+            
+            </nav>
+                
+            <header id="header-main">
+            
+                <div>
+                    <h1>Contact Us</h1>
+                </div>
+            
+            </header>
+        
+            <div id="email-us-form" class="body-section-1">
+                
+                <h2>Email Us</h2>
+                
+                <div class="flex-container">
+                
+                    <div class="box-1 box">
+                        
+                        <form class="grid-container" method="get" action="/contact-us.php">
+                        
+                            <input type="text" id="name" name="name" placeholder="Name" class="input-styles">
+                            
+                            <input type="email" id="email" placeholder="Email" class="input-styles">
+                            
+                            <input type="tel" id="phone" placeholder="Phone" class="input-styles">
+                            
+                            <input type="text" id="company" placeholder="Company" class="input-styles">
+                            
+                            <input type="url" id="current-website" placeholder="Current Website" class="input-styles separate-style">
+                            
+                            <textarea type="textarea" id="Message" placeholder="Message" class="input-styles separate-style textarea" contenteditable="true"></textarea>
+                            
+                            <button type="submit" class="btn submit-btn">SEND MESSAGE</button>
+                                
+                        </form>
+                    
+                    </div>
+                    
+                    <div class="box-2 box">
+                        
+                        <div class="contact-info">
+                            <i class="far fa-envelope"></i><p>Email Address</p>
+                            <p class="link-ptag">
+                                <a href="mailto:help@6ixdevelopers.com"> help@6ixdevelopers.com</a>
+                            </p>
+                        </div>
+                        
+                        <div class="contact-info">
+                            <i class="fas fa-phone-alt"></i><p>Phone</p>
+                            <p class="link-ptag">
+                                <a href="tel: 647-616-2016">647-616-2016</a>
+                            </p>
+                        </div>
+                        
+                        <div class="contact-info">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>Address</p>
+                            <p class="link-ptag">
+                                <a href="https://www.google.com/maps/place/6ix+Developers/@43.632154,-79.616516,17z/data=!3m1!4b1!4m5!3m4!1s0x882b39390477f623:0xaa213cd7954615da!8m2!3d43.632154!4d-79.6143273">1550 South Gateway Road, Mississauga</a>
+                            </p>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+        
+            </div>
+        
+            <div class="location-map"></div>
+        
+            <div id="consultation-btn" class="body-section-3">
+            
+                <div class="div-1">
+                    <h2>Ready to find out what sets 6ix Developers apart?</h2>
+                </div>
+                <div class="div-2">    
+                    <a class="btn button diff-btn" href="contact-us">Get free consultation</a>
+                </div>
+            
+            </div>
+            
+            <div id="footer-bottom" class="body-section-5">
+            
+                <p><i class="fas fa-copyright"></i> 2021 <span class="grad-text">6ixDevelopers</span><i class="fas fa-registered"></i>. All Rights Reserved.</p>
+                
+                <div class="last-line">
+                
+                <a href="https://6ixdevelopers.com/privacy-policy">Privacy Policy</a>
+                <div class="bar-div"></div>
+                <a href="https://6ixdevelopers.com/terms-and-conditions">Terms &#38; Conditions</a>
+                <div class="bar-div"></div>
+                <a href="https://6ixdevelopers.com/terms-of-service-for-6ix-developers">Terms of Service</a>
+                <div class="bar-div"></div>
+                <a href="https://6ixdevelopers.com/google-policy.php">Google Policy</a>
+                <div class="bar-div"></div>
+                <a href="https://6ixdevelopers.com/sitemap">Sitemap</a>
+                    
+                </div>
+                   
+            </div>
+    
+    
+    </body>
+
+</html>
